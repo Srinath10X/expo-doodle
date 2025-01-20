@@ -4,6 +4,11 @@
   "description": "A simple and minimal drawing library for Expo.",
   "main": "src/index.js",
   "types": "types/index.d.ts",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Srinath10X/expo-doodle.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
