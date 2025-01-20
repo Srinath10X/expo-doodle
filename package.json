@@ -1,0 +1,29 @@
+{
+  "name": "expo-doodle",
+  "version": "1.0.0",
+  "description": "A simple and minimal drawing library for Expo.",
+  "main": "src/index.js",
+  "types": "types/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native",
+    "svg",
+    "draw",
+    "android",
+    "ios",
+    "mobile",
+    "expo",
+    "sketch",
+    "signaturepad"
+  ],
+  "author": "Srinath10X",
+  "license": "MIT",
+  "peerDependencies": {
+    "expo": "*",
+    "react": "*",
+    "react-native": "*",
+    "react-native-svg": "*"
+  }
+}
