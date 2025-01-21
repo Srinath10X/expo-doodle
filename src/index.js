@@ -3,7 +3,13 @@ import { useEffect, useState } from "react";
 import Svg, { G, Path } from "react-native-svg";
 import { View, StyleSheet, PanResponder } from "react-native";
 
-export default ({ containerStyles, color, strokeWidth, undo, clear }) => {
+export default ({
+  containerStyles = {},
+  color = "#000",
+  strokeWidth = 4,
+  undo = () => {},
+  clear = () => {},
+}) => {
   const [currentStroke, setCurrentStroke] = useState([]);
   const [previousStrokes, setPreviousStrokes] = useState([]);
 
