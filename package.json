@@ -1,6 +1,6 @@
 {
   "name": "expo-doodle",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple and minimal drawing library for Expo.",
   "main": "src/index.js",
   "types": "types/index.d.ts",
