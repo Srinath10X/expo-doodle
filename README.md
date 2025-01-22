@@ -1,6 +1,6 @@
 # expo-doodle
 
-`expo-doodle` A simple and minimal drawing library for Expo.
+A simple and minimal drawing library for Expo.
 
 ## Installation
 
@@ -45,8 +45,8 @@ export default App;
 | Prop              | Type     | Default     | Description                                |
 | ----------------- | -------- | ----------- | ------------------------------------------ |
 | `containerStyles` | `object` | `{}`        | Custom styles for the canvas container.    |
-| `color`           | `string` | `#000000`   | The color of the brush.                    |
-| `strokeWidth`     | `number` | `5`         | The size of the brush in pixels.           |
+| `color`           | `string` | `#000`      | The color of the brush.                    |
+| `strokeWidth`     | `number` | `4`         | The size of the brush in pixels.           |
 | `undo`            | `func`   | `undefined` | Callback function to undo the last action. |
 | `clear`           | `func`   | `undefined` | Callback function to clear the canvas.     |
 
